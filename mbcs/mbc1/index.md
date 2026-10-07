@@ -100,7 +100,7 @@ A "High Bank Number" is the bank number which is used to calculate the address i
 
 #### 32 Banks or less (< 1MB)
 
-If the total ROM size is less than 1MB (32 banks or less) the High Bank Number is simply the ROM Bank number ANDed with the bitmap of the corresponding ROM size. [(Ref. Memory Writes to $2000-$3FFF)](2000-3fff-rom bank)
+If the total ROM size is less than 1MB (32 banks or less) the High Bank Number is simply the ROM Bank number ANDed with the bitmask of the corresponding ROM size. [(Ref. Memory Writes to $2000-$3FFF)](2000-3fff-rom bank)
 
 #### 64 Banks (1MB)
 
